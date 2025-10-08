@@ -72,7 +72,7 @@
                                         <td>{{ $user->id }}</td>
                                         <td><input name="updatename" type="text" placeholder="name" value="{{$user->name}}"></td>
                                         <td><input name="updateemail" type="email" placeholder="email" value="{{$user->email}}"></td>
-                                        <td><input name="updatepassword" type="text" placeholder="password" value="{{$user->name}}"></td>
+                                        <td><input name="updatepassword" type="text" placeholder="Type to change password"></td>
                                         <td><input name="updateisadmin" type="checkbox" {{ $user->isadmin ? 'checked': '' }}></td>
                                         <td style="text-align:">
                                             <input type="submit" name="action" value="edit">

@@ -55,7 +55,7 @@
                         <table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse;">
                             <thead>
                                 <tr>
-                                    <th>ID></th>
+                                    <th>ID</th>
                                     <th>Name</th>
                                     <th>Email</th>
                                     <th>Password</th>
